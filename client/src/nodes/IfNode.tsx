@@ -1,8 +1,7 @@
-import React from 'react';
 import { Handle, Position } from 'reactflow';
 import { NodeContainer, NodeHeader, NodeBody, ResultBadge, ConnectionPoint } from './NodeStyles';
 
-export const IfNode = ({ id, data, selected }: any) => {
+export const IfNode = ({ data, selected }: any) => {
     return (
         <NodeContainer $selected={selected} $isActive={data.isActive}>
             <NodeHeader $color="rgba(245, 158, 11, 0.1)">

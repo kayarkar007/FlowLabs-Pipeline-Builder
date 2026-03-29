@@ -1,6 +1,6 @@
 
 import { FlowExecutor } from './FlowExecutor';
-import { Node, Edge } from 'reactflow';
+import type { Node, Edge } from 'reactflow';
 
 // Mock Node and Edge types if needed, but we import from FlowExecutor which imports types
 // We need to construct a scenario where multiple inputs feed into one node

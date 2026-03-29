@@ -1,4 +1,3 @@
-import React from 'react';
 import { Handle, Position } from 'reactflow';
 import { NodeContainer, NodeHeader, NodeBody, NodeInput, ResultBadge } from './NodeStyles';
 import { usePipelineStore } from '../store/usePipelineStore';
