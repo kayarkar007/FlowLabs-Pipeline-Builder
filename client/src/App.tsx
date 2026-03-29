@@ -397,7 +397,9 @@ function App() {
     <AppContainer>
       <Header>
         <LogoArea onClick={() => setShowWelcome(true)}>
-          <LogoIcon>⚡</LogoIcon>
+          <LogoIcon>
+            <img src="/logo.png" alt="FlowLabs Logo" style={{ width: '80%', height: '80%', objectFit: 'contain' }} />
+          </LogoIcon>
           <LogoText>FlowLabs</LogoText>
         </LogoArea>
 
